@@ -28,7 +28,7 @@ placeholder(h, :h, dims=(2,))
 placeholder(w, :w, dims=(2,))
 
 # uncomment below to display graph, requres graphviz
-#draw(g)
+draw(g)
 
 # generate the algorithm to find the marginal of m: murderer
 algo = messagePassingAlgorithm(m)
